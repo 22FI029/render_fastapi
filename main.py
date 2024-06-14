@@ -35,7 +35,7 @@ def omikuji():
 
     return omikuji_list[random.randrange(10)]
 
-    @app.get("/index")
+@app.get("/index")
 def index():
     html_content = """
     <html>
